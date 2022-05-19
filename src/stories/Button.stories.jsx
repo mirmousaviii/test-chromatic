@@ -43,6 +43,6 @@ Small.args = {
 Small.parameters = {
   design: {
     type: 'figma',
-    url: 'https://www.figma.com/file/ORtmW7a9q8oVZTb1J153sM/Untitled?node-id=1%3A34',
+    url: 'https://www.figma.com/file/U8skXPUiUVjiWScFUSRx1s/Untitled?node-id=1%3A9',
   },
 };
