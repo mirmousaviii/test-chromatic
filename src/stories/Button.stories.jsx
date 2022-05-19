@@ -1,11 +1,12 @@
 import React from 'react';
-
+import {withDesign} from 'storybook-addon-designs';
 import { Button } from './Button';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
   title: 'Example/Button',
   component: Button,
+  decorators: [withDesign],
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {
     backgroundColor: { control: 'color' },
@@ -37,4 +38,11 @@ export const Small = Template.bind({});
 Small.args = {
   size: 'small',
   label: 'Button',
+};
+
+Small.parameters = {
+  design: {
+    type: 'figma',
+    url: 'https://www.figma.com/file/ORtmW7a9q8oVZTb1J153sM/Untitled?node-id=1%3A34',
+  },
 };
